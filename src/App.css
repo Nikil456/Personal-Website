@@ -46,16 +46,19 @@ h1,h2 {
 }
 
 h2,h3 {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 2vw;
 }
 
 h1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 32px;
+  /* font-size: 32px; */
+  font-size: 6vw;
 }
 
 p {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 1.5vw;
   font-weight: 300;
 }
 
@@ -72,13 +75,16 @@ p {
     gap: 100px;
   }
   h1 {
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 6vw;
   }
   h2,h3 {
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 2vw;
   } 
   p {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.5vw;
   }
   .sectionTitle {
     margin-bottom: 60px;
@@ -89,7 +95,8 @@ p {
       gap: 200px;
     }
     h1 {
-      font-size: 48px;
+      /* font-size: 48px; */
+      font-size: 6vw;
     }
     .sectionTitle {
       margin-bottom: 75px;
