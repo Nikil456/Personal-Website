@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css'
-import viberr from '../../assets/viberr.png'
-import freshBurger from '../../assets/fresh-burger.png'
+import greenplate from '../../assets/greenplate.png'
+import hobbystore from '../../assets/hobbystore.jpg'
 import ProjectCard from '../../common/ProjectCard'
 
 function Projects() {
@@ -9,14 +9,14 @@ function Projects() {
         <h1 className='sectionTitle'>Projects</h1>
         <div className={styles.projectsContainer}>
             <ProjectCard 
-            src={viberr} link ="https://github.com/Nikil456/CS_2340_Greenplate" 
-            h3="Viberr" 
-            p="Streaming App"
+            src={greenplate} link ="https://github.com/Nikil456/CS_2340_Greenplate" 
+            h3="GreenPlate" 
+            p="Meal Tracking App"
             />
             <ProjectCard 
-            src={freshBurger} link ="https://github.com/Nikil456/NodeJS-Side-Project" 
-            h3="FreshBurger" 
-            p="Food App"
+            src={hobbystore} link ="https://github.com/Nikil456/NodeJS-Side-Project" 
+            h3="HobbyStore" 
+            p="Hobby Web Store"
             />
         </div>
     </section>

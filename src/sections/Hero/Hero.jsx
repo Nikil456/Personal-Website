@@ -17,8 +17,8 @@ function Hero() {
     return (
         <section id="hero" className={styles.container}>
             <div className={styles.colorModeContainer}>
-                <img className={styles.hero} src={heroImg}/>
-                <img className={styles.colorMode} src={themeIcon} onClick={toggleTheme}/>
+                {/* <img className={styles.hero} src={heroImg}/> */}
+                {/* <img className={styles.colorMode} src={themeIcon} onClick={toggleTheme}/> */}
             </div>
             <div className={styles.info}>
                 <h1>Nikil <br /> Kandala</h1>
