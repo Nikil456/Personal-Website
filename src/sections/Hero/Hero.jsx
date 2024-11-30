@@ -6,7 +6,6 @@ import linkedinIconLight from '../../assets/linkedin-light.svg';
 import linkedinIconDark from '../../assets/linkedin-dark.svg';
 import githubIconLight from '../../assets/github-light.svg';
 import githubIconDark from '../../assets/github-dark.svg';
-import resume from '../../assets/cv.pdf';
 import {useTheme} from '../../common/themeContext';
 
 function Hero() {
