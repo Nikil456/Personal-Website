@@ -7,6 +7,7 @@ import linkedinIconDark from '../../assets/linkedin-dark.svg';
 import githubIconLight from '../../assets/github-light.svg';
 import githubIconDark from '../../assets/github-dark.svg';
 import {useTheme} from '../../common/themeContext';
+import resume from '../../assets/Nikil_Kandala_Resume.pdf';
 
 function Hero() {
     const {theme, toggleTheme} = useTheme();
@@ -32,7 +33,7 @@ function Hero() {
                     </a>
                 </span>
                 <p className={styles.description}>3rd Year CS student with threads in Artificial Intelligence and Information Internetworks</p>
-                <a href='https://drive.google.com/file/d/1QIFbka4WDIavqDPtz8WUSGkY7kMHSrSS/view?usp=sharing' target='_blank'>
+                <a href={resume} target='_blank'>
                     <button className="hover">Resume</button>
                 </a>
             </div>
