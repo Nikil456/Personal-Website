@@ -7,6 +7,7 @@ import githubIconDark from '../../assets/github-dark.svg';
 import devpostIconLight from '../../assets/devpost-light.png';
 import devpostIconDark from '../../assets/devpost-dark.png';
 import {useTheme} from '../../common/themeContext';
+import resume from '../../assets/Nikil_Kandala_Resume.pdf';
 
 function Hero() {
     const {theme} = useTheme();
@@ -29,8 +30,8 @@ function Hero() {
                         <img src={devpostIcon}/>
                     </a>
                 </span>
-                <p className={styles.description}>4th Year CS student with threads in Artificial Intelligence and Information Internetworks</p>
-                <a href='https://drive.google.com/file/d/1QIFbka4WDIavqDPtz8WUSGkY7kMHSrSS/view?usp=sharing' target='_blank'>
+                <p className={styles.description}>3rd Year CS student with threads in Artificial Intelligence and Information Internetworks</p>
+                <a href={resume} target='_blank'>
                     <button className="hover">Resume</button>
                 </a>
             </div>
