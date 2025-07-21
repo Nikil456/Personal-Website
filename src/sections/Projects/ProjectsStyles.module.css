@@ -12,6 +12,11 @@
         align-self: center;
         background-color: var(--project-card-bg);
         border-radius: 20px;
+        border: 2px solid #111;
+    }
+
+    [data-theme='dark'] .container img {
+        border: none;
     }
 
     a {

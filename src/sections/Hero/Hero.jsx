@@ -6,6 +6,8 @@ import githubIconLight from '../../assets/github-light.svg';
 import githubIconDark from '../../assets/github-dark.svg';
 import devpostIconLight from '../../assets/devpost-light.png';
 import devpostIconDark from '../../assets/devpost-dark.png';
+import mailIconLight from '../../assets/mail-light.png';
+import mailIconDark from '../../assets/mail-dark.png';
 import {useTheme} from '../../common/themeContext';
 import resume from '../../assets/Nikil_Kandala_Resume.pdf';
 
@@ -14,6 +16,7 @@ function Hero() {
     const linkedinIcon = theme === 'light' ? linkedinIconLight : linkedinIconDark;
     const githubIcon = theme === 'light' ? githubIconLight : githubIconDark;
     const devpostIcon = theme === 'light' ? devpostIconLight : devpostIconDark;
+    const mailIcon = theme === 'light' ? mailIconLight : mailIconDark;
     return (
         <section id="hero" className={styles.container}>
             <div className={styles.info}>
@@ -29,8 +32,11 @@ function Hero() {
                     <a href="https://devpost.com/kandala-nikil?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="blank">
                         <img src={devpostIcon}/>
                     </a>
+                    <a href="mailto:nkandala3@gatech.edu">
+                        <img src={mailIcon} alt="Email" />
+                    </a>
                 </span>
-                <p className={styles.description}>3rd Year CS student with threads in Artificial Intelligence and Information Internetworks</p>
+                <p className={styles.description}>4th Year BS in CS <br></br> 1st Year MS in ML</p>
                 <a href={resume} target='_blank'>
                     <button className="hover">Resume</button>
                 </a>

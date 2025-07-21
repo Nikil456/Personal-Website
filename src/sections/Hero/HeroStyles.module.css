@@ -64,6 +64,26 @@
     gap: 20px;
 }
 
+.email {
+    font-size: 1.1vw;
+    color: var(--footer-text-color);
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Roboto-Mono', monospace;
+    word-break: break-all;
+}
+
+.email a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.email a:hover {
+    color: var(--btn-color);
+    text-decoration: underline;
+}
+
 @media (width >= 800px) {
     .container {
         /* flex-direction: row-reverse; */

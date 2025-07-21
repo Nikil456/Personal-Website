@@ -3,6 +3,7 @@ import greenplate from '../../assets/greenplate.png'
 import hobbystore from '../../assets/hobbystore.jpg'
 import ProjectCard from '../../common/ProjectCard'
 import pathvoice from '../../assets/pathvoice.png'
+import aiimageclassifier from '../../assets/image-classifier.jpg'
 
 function Projects() {
   return (
@@ -15,12 +16,12 @@ function Projects() {
             p="Meal Tracking App"
             />
             <ProjectCard 
-            src={hobbystore} link ="https://github.com/Nikil456/NodeJS-Side-Project" 
-            h3="HobbyStore" 
-            p="Hobby Web Store"
+            src={aiimageclassifier} link ="https://github.com/Nikil456/AI-Image-Classifier" 
+            h3="CatagorAI" 
+            p="AI Image Classifier"
             />
             <ProjectCard 
-            src={pathvoice} link ="https://github.com/ayushpai/pathvoice/tree/main" 
+            src={pathvoice} link ="https://devpost.com/software/pathvoice-ai-tour-guide" 
             h3="PathVoice" 
             p="AI Travel Guide"
             />
