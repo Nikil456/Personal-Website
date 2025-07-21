@@ -30,7 +30,8 @@ function Navbar() {
     const scrollToSection = (sectionId) => {
         const element = document.getElementById(sectionId);
         if (element) {
-            const yOffset = -70; // height of navbar
+            let yOffset = -70; // default navbar height
+            if (sectionId === 'experience') yOffset = -120; // more space above experience
             const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
             smoothScrollTo(y, 500);
         }
@@ -48,6 +49,12 @@ function Navbar() {
                         onClick={() => scrollToSection('hero')}
                     >
                         Home
+                    </button>
+                    <button 
+                        className={styles.navButton}
+                        onClick={() => scrollToSection('experience')}
+                    >
+                        Experience
                     </button>
                     <button 
                         className={styles.navButton}
